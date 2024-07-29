@@ -6,7 +6,7 @@ import random
 3:Scissors
 '''
 print("---------------------------------------------------------")
-print("Welcome to Rock-Papaer-Scissors Game v0.1 :) !!!!")
+print("Welcome to Rock-Papaer-Scissors Game v0.1.1 :) !!!!")
 
 while True:
     flag = 0
