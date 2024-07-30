@@ -7,16 +7,19 @@ import random
 '''
 print("---------------------------------------------------------")
 print("Welcome to Rock-Papaer-Scissors Game v0.1.1 :) !!!!")
-
-while True:
+game_flag=True
+while game_flag:
     flag = 0
     computer=random.choice([1,2,3])
     print("---------------------------------------------------------")
-    yours=input("Enter your Choice: Rock|Paper|Scissors -->")
+    yours=input("Enter your Choice: Rock|Paper|Scissors |exit :enter 0 | -->")
     yourdict={"rock":1,"paper":2,"scissors":3}
     reverdict={1:"Rock",2:"Paper",3:"Scissors"}
     shortformdict={"r":"rock","p":"paper","s":"scissors"}
     yours=yours.lower()
+    if yours=="0":
+        game_flag=False
+        break
     if(yours!="rock" and yours!="paper" and yours!="scissors"):
         print("!!! Please only enter Rock|Paper|Scissors")
         continue
