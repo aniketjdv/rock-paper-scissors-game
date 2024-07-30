@@ -45,7 +45,8 @@ while game_flag:
             print("Sorry you loss !!!")
         else:
             print("Someting went wrong") 
-    print("---------------------------------------------------------")         
+    print("---------------------------------------------------------") 
+    #just for checking       
     flag=int(input("Enter 1 to play again | Enter 2 for Exit the Game ->"))
     if(flag == 2):
         print("Bye !!! come back soon !!!")
